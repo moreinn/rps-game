@@ -1,0 +1,13 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#8bd3dd;color:#e6eef6;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:linear-gradient(180deg,#081226 0%,#051023 100%);color:var(--accent)}
+.container{width:min(680px,95%);background:var(--card);padding:24px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,.6)}
+h1{text-align:center;margin:0 0 12px}
+.scoreboard{display:flex;gap:12px;justify-content:center;margin-bottom:12px}
+.prompt{text-align:center;margin:6px 0 8px}
+.buttons{display:flex;gap:12px;justify-content:center;margin-bottom:12px}
+.move{font-size:32px;padding:12px 16px;border-radius:8px;border:2px solid rgba(255,255,255,.06);background:transparent;color:var(--accent);cursor:pointer}
+.move .label{display:block;font-size:12px;margin-top:6px;color:#bcdbe0}
+.result{text-align:center;font-weight:600;margin:8px 0;padding:10px 6px}
+.controls{display:flex;gap:8px;justify-content:center;margin-top:10px}
+button#reset,button#signup{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.06);background:transparent;color:var(--accent);cursor:pointer}
