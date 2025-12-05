@@ -1,4 +1,4 @@
-// selecting all buttons 
+
 // simple RPS with localStorage best score
 const buttons = document.querySelectorAll('.move');
 const resultEl = document.getElementById('result');
