@@ -1,5 +1,5 @@
 
-// simple RPS with localStorage best score
+
 const buttons = document.querySelectorAll('.move');
 const resultEl = document.getElementById('result');
 const playerScoreEl = document.getElementById('user-score');
@@ -11,11 +11,11 @@ let playerScore = 0;
 let computerScore = 0;
 const LOCAL_KEY = 'rps_best_score';
 
-// localStorage helpers
+
 function getLocalBest(){ const v = localStorage.getItem(LOCAL_KEY); return v ? Number(v) : 0; }
 function setLocalBest(v){ localStorage.setItem(LOCAL_KEY, String(v)); bestScoreEl.textContent = v; }
 
-// init display
+
 bestScoreEl.textContent = getLocalBest();
 playerScoreEl.textContent = playerScore;
 computerScoreEl.textContent = computerScore;
